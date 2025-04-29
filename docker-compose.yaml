@@ -2,7 +2,7 @@ version: "3"
 
 services:
   langbot:
-    image: rockchin/langbot:latest
+    image: registry.cn-hangzhou.aliyuncs.com/junyang/lang_bot:latest
     container_name: langbot
     volumes:
       - ./data:/app/data
